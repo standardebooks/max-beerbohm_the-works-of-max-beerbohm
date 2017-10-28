@@ -21,41 +21,48 @@
 		<meta property="file-as" refines="#title">Works of Max Beerbohm, The</meta>
 		<dc:subject id="subject-1">Essays</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1859</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Shorts</meta>
+		<meta property="se:subject">Satire</meta>
+		<dc:description id="description">A collection of satirical essays ridiculing pretentiousness through imitation.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1859</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:source>https://archive.org/details/worksofmaxbeerbo00beer</dc:source>
+		<meta property="se:production-notes">It may be more fitting to emphasize all French words, not just the ones not appearing in a modern english dictionary. It may be part of the original's satirical style.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Works_of_Max_Beerbohm</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/max-beerbohm_the-works-of-max-beerbohm</meta>
 		<dc:creator id="author">Max Beerbohm</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Beerbohm, Max</meta>
+		<meta property="se:name.person.full-name" refines="#author">Henry Maximilian Beerbohm</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Max_Beerbohm</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80036711</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:contributor id="author-of-afterword">John Lane</dc:contributor>
+		<meta property="file-as" refines="#author-of-afterword">Lane, John</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-afterword">https://en.wikipedia.org/wiki/John_Lane_(publisher)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-of-afterword">http://id.loc.gov/authorities/names/n81042780</meta>
+		<meta property="role" refines="#author-of-afterword" scheme="marc:relators">aft</meta>
+		<dc:contributor id="artist">Auguste Renoir</dc:contributor>
+		<meta property="file-as" refines="#artist">Renoir, Auguste</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79055478</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Tom Weiss</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Weiss, Tom</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">G. Banks</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Banks, G.</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Bendix Düker</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Düker, Bendix</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/bendix3</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
