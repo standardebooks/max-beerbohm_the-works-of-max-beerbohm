@@ -9,6 +9,14 @@ section > header{
 	text-align: center;
 }
 
+[epub|type~="bibliography"] header{
+	text-align: center;
+}
+
+footer{
+	margin-top: 1em; text-align: right;
+}
+
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
@@ -23,10 +31,6 @@ section > header{
 	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
-}
-
-[epub|type~="subsubchapter"]{
-	text-align: center;
 }
 
 section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
