@@ -49,6 +49,12 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-afterword">https://en.wikipedia.org/wiki/John_Lane_(publisher)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-of-afterword">http://id.loc.gov/authorities/names/n81042780</meta>
 		<meta property="role" refines="#author-of-afterword" scheme="marc:relators">aft</meta>
+		<dc:contributor id="annotator">Max Beerbohm</dc:contributor>
+		<meta property="file-as" refines="#annotator">Beerbohm, Max</meta>
+		<meta property="se:name.person.full-name" refines="#author">Henry Maximilian Beerbohm</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#annotator">https://en.wikipedia.org/wiki/Max_Beerbohm</meta>
+		<meta property="se:url.authority.nacoaf" refines="#annotator">http://id.loc.gov/authorities/names/n80036711</meta>
+		<meta property="role" refines="#annotator" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Auguste Renoir</dc:contributor>
 		<meta property="file-as" refines="#artist">Renoir, Auguste</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir</meta>
