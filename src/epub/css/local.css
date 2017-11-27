@@ -5,6 +5,10 @@ abbr.name{
 	white-space: nowrap;
 }
 
+.signature{
+	font-variant: small-caps;
+}
+
 section > header{
 	text-align: center;
 }
@@ -17,7 +21,12 @@ footer{
 	margin-top: 1em; text-align: right;
 }
 
-[epub|type~="epigraph"]{
+section[epub|type~="epigraph"] div{
+	margin: 5em auto;
+	max-width: 50%;
+}
+
+blockquote[epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
 	margin: 3em;
@@ -44,18 +53,21 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
