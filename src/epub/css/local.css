@@ -94,3 +94,7 @@ p span.i1{
 [epub|type~="z3998:verse"] + p{
 	text-indent: 0;
 }
+
+#the-works-of-max-beerbohm ol{
+	list-style-type: upper-roman;
+}
