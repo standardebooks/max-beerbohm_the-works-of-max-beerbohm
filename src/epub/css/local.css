@@ -99,6 +99,10 @@ p span.i1{
 	text-indent: 0;
 }
 
+[epub|type~="epigraph"] [epub|type~="z3998:poem"] p > span{
+	text-align: center;
+}
+
 #the-works-of-max-beerbohm ol{
 	list-style-type: upper-roman;
 }

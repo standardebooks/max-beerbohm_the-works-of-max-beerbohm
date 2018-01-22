@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/max-beerbohm/the-works-of-max-beerbohm</dc:identifier>
 		<dc:date>2017-11-27T21:47:18Z</dc:date>
-		<meta property="dcterms:modified">2017-12-21T20:29:44Z</meta>
-		<meta property="se:revision-number">7</meta>
+		<meta property="dcterms:modified">2018-01-22T22:48:30Z</meta>
+		<meta property="se:revision-number">8</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -33,8 +33,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1859</dc:source>
 		<dc:source>https://archive.org/details/worksofmaxbeerbo00beer</dc:source>
-		<meta property="se:production-notes">It may be better to italicize all French words, as the original did—the heavy use of French is certainly part of the parodying aspects of the texts. The essay "1880" has the filename "essay-1880.xhtml" instead of "1880.xhtml" because in XHTML, IDs cannot start with a number.</meta>
-		<meta property="se:word-count">32811</meta>
+		<meta property="se:production-notes">Italics in some French words that would have otherwise been removed according to the SE style manual have been retained, as a matter of prose style—the heavy use of French is part of the parodying aspects of the text. The essay "1880" has the filename "essay-1880.xhtml" instead of "1880.xhtml" because in XHTML, IDs cannot start with a number.</meta>
+		<meta property="se:word-count">32802</meta>
 		<meta property="se:reading-ease.flesch">69.92</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Works_of_Max_Beerbohm</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/max-beerbohm_the-works-of-max-beerbohm</meta>
