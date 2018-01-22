@@ -103,7 +103,7 @@
 		<item href="text/king-george-the-fourth.xhtml" id="king-george-the-fourth.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/poor-romeo.xhtml" id="poor-romeo.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-pervasion-of-rouge.xhtml" id="the-pervasion-of-rouge.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-work-of-max-beerbohm.xhtml" id="the-work-of-max-beerbohm.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-works-of-max-beerbohm.xhtml" id="the-works-of-max-beerbohm.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
@@ -119,7 +119,7 @@
 		<itemref idref="the-pervasion-of-rouge.xhtml"/>
 		<itemref idref="poor-romeo.xhtml"/>
 		<itemref idref="diminuendo.xhtml"/>
-		<itemref idref="the-work-of-max-beerbohm.xhtml"/>
+		<itemref idref="the-works-of-max-beerbohm.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
