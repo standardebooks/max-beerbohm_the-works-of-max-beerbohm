@@ -1,45 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.name{
-	white-space: nowrap;
-}
-
 .signature{
 	font-variant: small-caps;
 }
 
-section > header{
-	text-align: center;
-}
-
-[epub|type~="bibliography"] header{
-	text-align: center;
-}
-
 footer{
 	margin-top: 1em; text-align: right;
-}
-
-section[epub|type~="epigraph"] div{
-	margin: 5em auto;
-	max-width: 50%;
-}
-
-blockquote[epub|type~="epigraph"]{
-	font-style: italic;
-	hyphens: none;
-	margin: 3em;
-	margin-top: 0;
-	text-align: left;
-	text-indent: 0;
-	display: inline-block;
-}
-
-[epub|type~="epigraph"] cite{
-	margin-top: 1em;
-	font-style: normal;
-	font-variant: small-caps;
 }
 
 [epub|type~="z3998:salutation"] + p{
@@ -106,3 +73,69 @@ p span.i1{
 #the-works-of-max-beerbohm ol{
 	list-style-type: upper-roman;
 }
+
+#the-bibliography header{
+	margin-top: 3em;
+}
+
+#the-bibliography header + *{
+	margin-top: 1em;
+}
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+/* End all epigraphs */
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
+/* Full-page epigraphs */
+section[epub|type~="epigraph"]{
+	text-align: center;
+}
+
+section[epub|type~="epigraph"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: flex){
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
+}
+/* End full-page epigraphs */
