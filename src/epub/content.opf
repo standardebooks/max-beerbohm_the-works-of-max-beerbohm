@@ -26,20 +26,19 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Works of Max Beerbohm</dc:title>
 		<meta property="file-as" refines="#title">Works of Max Beerbohm, The</meta>
 		<dc:subject id="subject-1">Essays</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1859</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85044914</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta property="se:subject">Satire</meta>
 		<dc:description id="description">A collection of satirical essays ridiculing pretentiousness through imitation.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Works of Max Beerbohm&lt;/i&gt; is a collection of satirical essays by Max Beerbohm. It was published in 1896 at The Bodley Head, his publisher John Lane contributing a detailed bibliography of the works of the author, then aged 24. Before their publication as a book, the essays had appeared in prominent literary periodicals such as &lt;i&gt;The Yellow Book&lt;/i&gt; and &lt;i&gt;The Savoy&lt;/i&gt;. Most of the essays were written while he was a student at Oxford, although he had left Merton College in 1894. By then he was already known as a caricaturist, parodist and essayist and well acquainted with the writers and artists connected with The Bodley Head, notably Aubrey Beardsley and Oscar Wilde.&lt;/p&gt;
 			&lt;p&gt;The essays can perhaps be best described as both elaborate parody and viscious satire. Beerbohm’s intimate knowledge of the social circles of the time and his penchant for pointed descriptions of character are always on display, dismantling the purported greatness that surrounds him.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1859</dc:source>
 		<dc:source>https://archive.org/details/worksofmaxbeerbo00beer</dc:source>
