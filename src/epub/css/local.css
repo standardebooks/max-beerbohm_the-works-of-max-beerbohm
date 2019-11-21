@@ -6,7 +6,8 @@
 }
 
 footer{
-	margin-top: 1em; text-align: right;
+	margin-top: 1em;
+	text-align: right;
 }
 
 [epub|type~="z3998:salutation"] + p{
