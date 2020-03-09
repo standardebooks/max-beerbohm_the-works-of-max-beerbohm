@@ -43,8 +43,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/1859</dc:source>
 		<dc:source>https://archive.org/details/worksofmaxbeerbo00beer</dc:source>
 		<meta property="se:production-notes">Italics in some French words that would have otherwise been removed according to the SE style manual have been retained, as a matter of prose style—the heavy use of French is part of the parodying aspects of the text. The essay "1880" has the filename "essay-1880.xhtml" instead of "1880.xhtml" because in XHTML, IDs cannot start with a number.</meta>
-		<meta property="se:word-count">32806</meta>
-		<meta property="se:reading-ease.flesch">69.92</meta>
+		<meta property="se:word-count">32809</meta>
+		<meta property="se:reading-ease.flesch">69.82</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Works_of_Max_Beerbohm</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/max-beerbohm_the-works-of-max-beerbohm</meta>
 		<dc:creator id="author">Max Beerbohm</dc:creator>
