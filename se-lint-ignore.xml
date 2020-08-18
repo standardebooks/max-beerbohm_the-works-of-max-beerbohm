@@ -3,7 +3,13 @@
 	<file path="dandies-and-dandies.xhtml">
 		<ignore>
 			<code>t-007</code>
-			<reason>Possessive s is part of the title</reason>
+			<reason>Possessive s is part of the title.</reason>
+		</ignore>
+	</file>
+	<file path="king-george-the-fourth.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Punctuation is part of the pamphlet title.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
