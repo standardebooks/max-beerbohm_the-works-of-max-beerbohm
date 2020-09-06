@@ -14,11 +14,6 @@ footer{
 	text-indent: 0;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	display: block;
 	font-size: .75em;
