@@ -108,7 +108,7 @@
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/epigraph.xhtml" id="epigraph.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/essay-1880.xhtml" id="essay-1880.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/king-george-the-fourth.xhtml" id="king-george-the-fourth.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/poor-romeo.xhtml" id="poor-romeo.xhtml" media-type="application/xhtml+xml"/>
@@ -121,7 +121,7 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="epigraph.xhtml"/>
-		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="dandies-and-dandies.xhtml"/>
 		<itemref idref="a-good-prince.xhtml"/>
 		<itemref idref="essay-1880.xhtml"/>
