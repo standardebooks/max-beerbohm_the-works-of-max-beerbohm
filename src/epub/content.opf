@@ -33,6 +33,7 @@
 		<meta property="term" refines="#subject-1">sh85044914</meta>
 		<meta property="se:subject">Satire</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of satirical essays ridiculing pretentiousness through imitation.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Works of Max Beerbohm&lt;/i&gt; is a collection of satirical essays by &lt;a href="https://standardebooks.org/ebooks/max-beerbohm"&gt;Max Beerbohm&lt;/a&gt;. It was published in 1896 at The Bodley Head, his publisher John Lane contributing a detailed bibliography of the works of the author, then aged 24. Before their publication as a book, the essays had appeared in prominent literary periodicals such as &lt;i&gt;The Yellow Book&lt;/i&gt; and &lt;i&gt;The Savoy&lt;/i&gt;. Most of the essays were written while he was a student at Oxford, although he had left Merton College in 1894. By then he was already known as a caricaturist, parodist and essayist and well acquainted with the writers and artists connected with The Bodley Head, notably Aubrey Beardsley and &lt;a href="https://standardebooks.org/ebooks/oscar-wilde"&gt;Oscar Wilde&lt;/a&gt;.&lt;/p&gt;
