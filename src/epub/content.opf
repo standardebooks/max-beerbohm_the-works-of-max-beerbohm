@@ -58,7 +58,7 @@
 		<meta property="file-as" refines="#author-of-afterword">Lane, John</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-afterword">https://en.wikipedia.org/wiki/John_Lane_(publisher)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-of-afterword">http://id.loc.gov/authorities/names/n81042780</meta>
-		<meta property="role" refines="#author-of-afterword" scheme="marc:relators">aft</meta>
+		<meta property="role" refines="#author-of-afterword" scheme="marc:relators">waw</meta>
 		<dc:contributor id="annotator">Max Beerbohm</dc:contributor>
 		<meta property="file-as" refines="#annotator">Beerbohm, Max</meta>
 		<meta property="se:name.person.full-name" refines="#author">Henry Maximilian Beerbohm</meta>
