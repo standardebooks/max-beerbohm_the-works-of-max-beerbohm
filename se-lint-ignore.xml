@@ -2,29 +2,41 @@
 <se-lint-ignore>
 	<file path="dandies-and-dandies.xhtml">
 		<ignore code="t-007">
+			<line>11</line>
 			<reason>Possessive s is part of the title.</reason>
 		</ignore>
 		<ignore code="t-043">
+			<line>14</line>
 			<reason>Italics are maintained as a matter of prose style.</reason>
 		</ignore>
 	</file>
 	<file path="essay-1880.xhtml">
 		<ignore code="t-043">
+			<line>25</line>
+			<line>26</line>
 			<reason>Italics are maintained as a matter of prose style.</reason>
 		</ignore>
 	</file>
 	<file path="king-george-the-fourth.xhtml">
 		<ignore code="t-017">
+			<line>28</line>
 			<reason>Punctuation is part of the pamphlet title.</reason>
 		</ignore>
 	</file>
 	<file path="poor-romeo.xhtml">
 		<ignore code="t-043">
+			<line>11</line>
+			<line>27</line>
+			<line>28</line>
+			<line>36</line>
+			<line>52</line>
+			<line>64</line>
 			<reason>Italics are maintained as a matter of prose style.</reason>
 		</ignore>
 	</file>
 	<file path="the-pervasion-of-rouge.xhtml">
 		<ignore code="t-043">
+			<line>37</line>
 			<reason>Italics are maintained as a matter of prose style.</reason>
 		</ignore>
 	</file>
