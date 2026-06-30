@@ -1,0 +1,1 @@
+Italics in some French words that would have otherwise been removed according to the SE style manual have been retained, as a matter of prose style—the heavy use of French is part of the parodying aspects of the text. The essay "1880" has the filename "essay-1880.xhtml" instead of "1880.xhtml" because in XHTML, IDs cannot start with a number.
